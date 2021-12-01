@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.w3.org/1999/xhtml">
+<head th:replace="common/navbar :: common-header"/>
+<body>
+
+
+<div th:replace="common/navbar :: navbar"></div>
+<div class="main-center ">
+
+    <br/><br/>
+
+    <div class="container">
+        <div class="row ">
+    <a type="submit" class="btn btn-lg btn-primary btn-block" th:href="@{/login}">Sign in</a>
+
+            &nbsp
+    <hr/>
+
+
+    <a type="submit" class="btn btn-success btn-lg btn-block login-button" th:href="@{/resultsPage}">Results</a>
+
+            &nbsp
+    <hr/>
+
+
+    <a type="submit" class="btn btn-danger btn-lg btn-block login-button" th:href="@{/submitScore}">Sudfbmit your score</a>
+
+        </div>
+    </div>
+
+
+</div>
+<div th:replace="common/navbar :: body-bottom-scripts"/>
+
+</body>
+</html>

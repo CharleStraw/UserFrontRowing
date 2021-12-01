@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.w3.org/1999/xhtml">
+<head th:replace="common/navbar :: common-header"/>
+<body roleId="page-top" data-spy="scroll" data-target=".navbar-fixed-top">
+<div th:replace="common/navbar :: navbar"/>
+
+
+<form method="post" action="/test" enctype="multipart/form-data">
+    <input type="file" name="myfile" accept="image/*">
+    <input type="submit" value="Upload">
+</form>
+
+
+
+<div class="row">
+    <div class="col-md-3" th:each="img:${images}">
+        <div class="container">
+            <p th:text="${img.name}"></p>
+            <p th:text="${img.type}"></p>
+            <img th:src="${'/images/'+img.name}" style="max-height: 110px">
+        </div>
+    </div>
+</div>
+
+<div th:replace="common/navbar :: body-bottom-scripts"/>
+
+</body>
+</html>

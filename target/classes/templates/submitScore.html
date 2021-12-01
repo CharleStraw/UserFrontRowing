@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.w3.org/1999/xhtml">
+<head th:replace="common/navbar :: common-header"/>
+
+
+<body>
+<!-- Login Section -->
+<!--    <img class="img-responsive" src="/images/banner.png" alt="banner"/>-->
+<div th:replace="common/navbar :: navbar"></div>
+
+<div class="container">
+    <div class="row ">
+        <div class="main-center ">
+<!--            <div class="bg-danger" th:if="${param.error}">-->
+<!--                Invalid username and secret.-->
+<!--            </div>-->
+<!--            <div class="bg-danger" th:if="${param.logout}">-->
+<!--                You have been logged out.-->
+<!--            </div>-->
+
+
+
+            <form class="form-horizontal" method="post" th:action="@{/submitScore}" enctype="multipart/form-data" >
+                <h2 class="form-signin-heading"> Your Results</h2><br/>
+
+                <div class="form-group">
+                    <label for="selectDivision" class="sr-only">Select Division</label>
+                    <select  class="form-control" name="selectDivision"
+                            id="selectDivision" th:value="${userScore.division}"
+                            required="required" autofocus="autofocus">
+                        <option disabled="true">Select Division</option>
+                        <option value="Man">Man</option>
+                        <option value="Woman">Woman</option>
+
+                    </select>
+                </div>
+
+
+                <div class="form-group">
+                    <label for="name" class="sr-only">Name</label>
+                    <input type="text" roleId="name" th:value="${userScore.name}" class="form-control"
+                           placeholder="User Name" name="name"
+                           id="name"
+                           required="required" autofocus="autofocus"/>
+                </div>
+
+                <div class="form-group">
+                    <label for="wats" class="sr-only">Watts</label>
+                    <input type="text" roleId="wats" class="form-control" th:value="${userScore.wats}"
+                           placeholder="Watts" name="wats"
+                           id="wats"
+                           required="required" autofocus="autofocus"/>
+                </div>
+
+
+
+                <!--                <div class="form-group">-->
+                <!--                    <label for="time" class="sr-only">Time</label>-->
+                <!--                    <input type="text" class="form-control" placeholder="Your Time"-->
+                <!--                           id="time"-->
+                <!--                           name="time" />-->
+                <!--                </div>-->
+                <div class="form-group">
+                    <input type="file" name="myfile" accept="image/*">
+
+
+                </div>
+
+
+                <button class="btn btn-lg btn-primary btn-block" type="submit">Save</button>
+            </form>
+
+            <hr/>
+
+        </div>
+    </div>
+</div>
+
+
+<div th:replace="common/navbar :: body-bottom-scripts"/>
+
+
+</body>
+</html>
