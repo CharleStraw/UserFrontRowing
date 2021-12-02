@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8edde863-0a2e-4d30-a671-35e13645cd8a" name="Default Changelist" comment="New Project RowingApp to make online trenings easier">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
-    </list>
+    <list default="true" id="8edde863-0a2e-4d30-a671-35e13645cd8a" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -179,7 +176,14 @@
       <option name="project" value="LOCAL" />
       <updated>1638423465636</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="New Project RowingApp to make online trenings easier">
+      <created>1638425737137</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1638425737137</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -198,10 +202,10 @@
     <option name="LAST_COMMIT_MESSAGE" value="New Project RowingApp to make online trenings easier" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="361" y="70" key="#Notifications" timestamp="1638425256954">
+    <state x="361" y="70" key="#Notifications" timestamp="1638425740715">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="361" y="70" key="#Notifications/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1638425256954" />
+    <state x="361" y="70" key="#Notifications/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1638425740715" />
     <state x="2472" y="178" key="#Project_Structure" timestamp="1633459253928">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
@@ -227,10 +231,10 @@
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
     <state x="2610" y="266" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1634360038317" />
-    <state x="423" y="105" key="CommitChangelistDialog2" timestamp="1638424887475">
+    <state x="423" y="105" key="CommitChangelistDialog2" timestamp="1638425736516">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="423" y="105" key="CommitChangelistDialog2/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1638424887475" />
+    <state x="423" y="105" key="CommitChangelistDialog2/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1638425736516" />
     <state x="168" y="65" key="DiffContextDialog" timestamp="1638423344454">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
